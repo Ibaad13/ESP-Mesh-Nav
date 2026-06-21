@@ -85,7 +85,7 @@ A render of the CAD design alongside the physical build:
   <img src="docs/media/bot_hardware_photo.png" width="400" alt="Physical assembled robot">
 </p>
 
-Full CAD source and exported views are in [`hardware/fusion360/`](hardware/fusion360).
+I will upload full CAD source and exported views are in [`hardware/fusion360/`](hardware/fusion360).
 
 ---
 
@@ -128,9 +128,9 @@ Two experiments were run to validate the pipeline before adding the EKF:
   <img src="docs/results/phase1_dynamic/motion_capture_08.png" width="160">
 </p>
 
-**Takeaway:** raw RSSI trilateration is functional and clearly tracks gross movement between access points, but — as expected from any RSSI-only system — the static captures show visible jitter in the estimated position even when the robot doesn't move. This noise sensitivity is the core motivation for Phase 2.
+**Takeaway:** raw RSSI trilateration is functional and clearly tracks gross movement between access points with an accuracy of *3m-5m*, but — as expected from any RSSI-only system — the static captures show visible jitter in the estimated position even when the robot doesn't move. This noise sensitivity is the core motivation for Phase 2.
 
-Code: [`software/phase1_visualization/`](software/phase1_visualization) · Firmware: [`firmware/`](firmware)
+Code: Once I finalize the code, everything will be uploaded too: [`software/phase1_visualization/`](software/phase1_visualization) · Firmware: [`firmware/`](firmware)
 
 ---
 
