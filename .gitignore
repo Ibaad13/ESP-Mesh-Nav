@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Arduino / PlatformIO
+.pio/
+*.hex
+build/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large/raw working files (keep exported renders in hardware/images instead)
+*.f3d.lock
+
+# Logs and data dumps
+*.log
+*.csv.bak
