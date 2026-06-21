@@ -233,7 +233,7 @@ The full step-by-step derivation, with all intermediate algebra, is in [`docs/re
 The EKF above has been implemented and tested in a Python simulation (synthetic RSSI + IMU data) ahead of hardware integration. A recorded run is available here:
 
 <p align="center">
-  <a href="https://github.com/user-attachments/assets/fd2a634a-74a8-4869-aa1b-a38d91804d3e">
+  <a href="[https://github.com/user-attachments/assets/fd2a634a-74a8-4869-aa1b-a38d91804d3e](https://github.com/user-attachments/assets/fd2a634a-74a8-4869-aa1b-a38d91804d3e)">
     <img src="docs/media/ekf_simulation_thumbnail.png" width="500" alt="EKF simulation demo — click to view video">
   </a>
   <br>
