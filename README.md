@@ -342,7 +342,14 @@ python ekf_simulation.py
 - [ ] Run EKF on live hardware data
 - [ ] Quantitative accuracy comparison (Phase 1 vs Phase 2)
 - [ ] (Stretch) Extend to 3+ room multi-AP coverage with handover
-
+- [ ] Complete closed-loop EKF integration and conduct baseline accuracy evaluation (target: < 1.5 m 
+mean error) on static grid.
+- [ ] Implement adaptive noise covariance: dynamically adjust R based on instantaneous RSSI variance to 
+handle environmental fluctuations.
+- [ ] Extend to dynamic environments: introduce a moving person into the test space and quantify 
+localization degradation, motivating the next research phase.
+- [ ] Prepare conference paper draft: structure results around quantitative comparison of (1) RSSI-only, 
+(2) IMU dead-reckoning, and (3) EKF-fused approaches. 
 ---
 
 ## Author
