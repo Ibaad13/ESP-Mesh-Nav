@@ -327,7 +327,7 @@ localization degradation, motivating the next research phase.
 **[Muhammad Ibaad]** <br>
 Undergraduate Research project — Indoor Localization & Navigation
 <br>
-*Feel free to reach out via GitHub issues or [ibaadsajidshaikh18@gmail.com] for questions about this project.*
+*Feel free to reach out for any issues or questions for this project via [ibaadsajidshaikh18@gmail.com] for questions about this project.*
 
 ---
 
