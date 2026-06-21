@@ -80,7 +80,7 @@ The robot chassis is a two-tier acrylic platform on a 4-wheel differential/skid-
 A render of the CAD design alongside the physical build:
 
 <p align="center">
-  <img src="docs/media/fusion360_render.png" width="400" alt="Fusion 360 CAD render of the chassis">
+  <img src="docs/media/fusion360_render.jpg" width="400" alt="Fusion 360 CAD render of the chassis">
   &nbsp;&nbsp;&nbsp;
   <img src="docs/media/bot_hardware_photo.png" width="400" alt="Physical assembled robot">
 </p>
