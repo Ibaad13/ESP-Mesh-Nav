@@ -85,7 +85,7 @@ A render of the CAD design alongside the physical build:
   <img src="docs/media/bot_hardware_photo.png" width="400" alt="Physical assembled robot">
 </p>
 
-I will upload full CAD source and exported views are in [`hardware/fusion360/`](hardware/fusion360).
+I will upload full CAD source and exported views in future:  [`hardware/fusion360/`](hardware/fusion360).
 
 ---
 
@@ -226,7 +226,7 @@ X_k  = X_k⁻ + K_k · y_k           (state update)
 P_k  = (I - K_k · H) · P_k⁻       (covariance update)
 ```
 
-The full step-by-step derivation, with all intermediate algebra, is in [`docs/report/EKF_derivation_indoor_navigation.docx`](docs/report/EKF_derivation_indoor_navigation.docx) (also exported as PDF for quick viewing: [`docs/report/EKF_derivation_indoor_navigation.pdf`](docs/report/EKF_derivation_indoor_navigation.pdf)).
+All equations are is in [`docs/report/EKF_derivation_indoor_navigation.docx`](docs/report/EKF_derivation_indoor_navigation.docx) (also exported as PDF for quick viewing: [`docs/report/EKF_derivation_indoor_navigation.pdf`](docs/report/EKF_derivation_indoor_navigation.pdf)).
 
 ### Simulation
 
@@ -279,10 +279,10 @@ ESP-Mesh-Nav/
 │           └── motion_capture_08.png
 ├── hardware/
 │   ├── fusion360/
-│   │   └── chassis_design.f3d         <- (or exported .step/.stl)
+│   │   └── chassis_design.f3d         <- (I will upload the design files in future)
 │   └── images/
 │       └── fusion360_render_full.png
-├── firmware/
+├── firmware/                          <- (All the firmware will be uploaded here once project is completed)
 │   ├── access_point_node/
 │   │   └── access_point_node.ino
 │   ├── robot_node/
@@ -290,42 +290,12 @@ ESP-Mesh-Nav/
 │   └── master_node/
 │       └── master_node.ino
 └── software/
-    ├── phase1_visualization/
+    ├── phase1_visualization/         <- (Will be uploaded here once project is completed)
     │   ├── trilateration_visualizer.py
     │   └── requirements.txt
     └── phase2_ekf_fusion/
         ├── ekf_simulation.py
         ├── requirements.txt
-        └── results/
-            └── (simulation output plots, if any)
-```
-
-> See [`FILE_MANIFEST.md`](FILE_MANIFEST.md) in this repo for the exact filenames this README expects, in case you're populating the repository from scratch.
-
----
-
-## Getting started
-
-### Firmware (ESP32, Arduino IDE / PlatformIO)
-
-1. Flash [`firmware/access_point_node/access_point_node.ino`](firmware/access_point_node) onto each wall-mounted ESP32, giving each a unique SSID.
-2. Flash [`firmware/robot_node/robot_node.ino`](firmware/robot_node) onto the robot's ESP32. Update the AP SSID list and the master node's MAC address for ESP-NOW pairing.
-3. Flash [`firmware/master_node/master_node.ino`](firmware/master_node) onto the master ESP32 and connect it to your laptop via USB.
-
-### Host-side visualization (Phase 1)
-
-```bash
-cd software/phase1_visualization
-pip install -r requirements.txt
-python trilateration_visualizer.py --port <your_serial_port>
-```
-
-### EKF simulation (Phase 2)
-
-```bash
-cd software/phase2_ekf_fusion
-pip install -r requirements.txt
-python ekf_simulation.py
 ```
 
 ---
@@ -354,8 +324,9 @@ localization degradation, motivating the next research phase.
 
 ## Author
 
-**[Muhammad Ibaad]**
+**[Muhammad Ibaad]** <br>
 Undergraduate Research project — Indoor Localization & Navigation
+<br>
 *Feel free to reach out via GitHub issues or [ibaadsajidshaikh18@gmail.com] for questions about this project.*
 
 ---
