@@ -347,9 +347,9 @@ python ekf_simulation.py
 
 ## Author
 
-**[Your Name]**
-Undergraduate project — Indoor Localization & Navigation
-*Feel free to reach out via GitHub issues or [your email/LinkedIn here] for questions about this project.*
+**[Muhammad Ibaad]**
+Undergraduate Research project — Indoor Localization & Navigation
+*Feel free to reach out via GitHub issues or [ibaadsajidshaikh18@gmail.com] for questions about this project.*
 
 ---
 
